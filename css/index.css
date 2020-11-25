@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    {box-sizing:border-box}
+}
+
+html,body{
+	min-width: 1280px;
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  	background-color: #ECF0F1; 
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #0B5345; 
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container a {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.slide {
+  height: 550px;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.slide img{
+  height: 550px;
+  width: 100%;
+  pointer-events: none;
+}
+
+.slide h2{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 200px;
+  margin-left: 550px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.slide p{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 250px;
+  margin-left: 575px;
+}
+.product{
+  height: 500px;
+  background-color: white;
+}
+.product h2{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
+.product p{
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 5px;
+}
+.option img{
+  height: auto;
+  width: 300px;
+  margin-left: 28px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.footer{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #18181a;
+} 
+.copyright{
+  font-family: 'Montserrat';
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
